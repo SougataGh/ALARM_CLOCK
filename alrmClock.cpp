@@ -13,11 +13,11 @@ void alrmClock::displayClock() {
         }
         scs++;
         if (scs == 60) { // when sec reaches it's limit increase the minute &
-                         // reset second it 0
+                         // reset second to 0
             scs = 0;
             mns++;
             if (mns == 60) { // when min reaches it's limit increase the hour &
-                             // reset minute it 0
+                             // reset minute to 0
                 mns = 0;
                 hrs++;
                 if (hrs == 24) { // when hour reaches it's limit reset it to 0
