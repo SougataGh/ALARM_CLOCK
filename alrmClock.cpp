@@ -1,3 +1,8 @@
+alrmClock::alrmClock(int hr,int mn,int sc) // setting the starting time by a parameterized constructor 
+    {
+        hrs=hr;mns=mn;scs=sc;
+    }
+
 void alrmClock::setAlarm(int hr, int mn, int sc) {
     ahr = hr;
     amn = mn;
